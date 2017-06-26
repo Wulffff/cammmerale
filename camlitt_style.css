@@ -1,0 +1,165 @@
+body {
+	background-image: url("images/background/back5.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-color: black;
+	font-family:farmers_co-opmedium;
+	font-size:90%;
+	margin:20px auto;
+	text-align:center;
+	line-height:1.4em;
+	width:960px;
+}
+header{
+	background-color: Orange;
+	border-style:solid;
+	background-position: center; !important
+	background-size: 100%;
+	width: 100vw; !important
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:farmers_co-opmedium;
+	font-size:1.5em;
+	letter-spacing:-0.06em;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+section{
+    width: 960px !important;
+    background-color: gray !important;
+    background: transparent !important;
+    background-color: rgba(1,1,1,0.5) !important;
+}
+
+section li{
+	text-align:auto;
+	display:inline;
+	padding-left:100px;
+	padding-right:100px;
+	margin-right: 56px;
+}
+
+section li a:link, section li a:visited{
+	width:96%;
+}
+
+section li a:hover{
+	background:CCCCCC;
+}
+
+article {
+	float:auto;
+	width:960px;
+	height:1000px;
+	text-align:left;
+
+}
+
+article h1{
+	text-align:center;
+	color:#fe6601;
+	padding:7px 0px 7px 0px;
+	font-family:FarmersCo-op-Medium;
+	font-size:200%;
+}
+
+article p{
+	color:#fe6601;
+	font-size: 150%;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+article img{
+	float:right;
+	margin: 10px;
+}
+
+articel h2, article h3, article h4, article h5, article h6{
+	color:#fe6601;
+	padding:7px 10px 12px 30px;
+	text-shadow: 0 1px 0 #333300;
+	font-family:farmers_co-opmedium;
+	
+}
+
+article p:first-of-type{
+	font-family:farmers_co-opmedium;
+	border-top:2px dotted black;
+	border-bottom:2px dotted black;
+	padding:10px 0px;
+	color:black;
+}
+
+footer{
+	display:block;
+	clear:both;
+	width:960px;
+}
+
+footer a{
+	margin:0px 5px;
+}
+
+nav a:link, nav a:visited{
+	font-size:1.4em;
+	font-weight:normal;
+}
+section,article,footer{
+	padding:10px 20px 20px;
+	margin:10px;
+	border:1px solid black;
+	border-radius:8px;
+	-webkit-border-radius:.8em;
+	background:#d2d7dd;
+	color:#fe6601;
+	font-family:farmers_co-opmedium;
+}
+
+header img{
+	position:center;
+	padding-left:28px;
+}
+
+a {
+font-family:Georgia,serif; 
+font-size:large;
+}
+
+a:link {
+color:#fe6601;
+}
+
+a:visited {
+color: #fe6601;
+}
+
+a:hover {
+text-decoration: none; 
+color: #fe6601;
+border-bottom:1px dotted #91476c;
+}
+
+a:active {
+color: red;
+text-decoration: none;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
